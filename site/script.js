@@ -66,6 +66,6 @@ function setSuccessFor(input){
     formControl.className = 'form-control success';
     if(usernameBool === true && emailBool === true && passwordBool === true && password2Bool === true)
     {
-        alert("Login successfull!!!");
+        window.location = "cv.html"
     }
 }
